@@ -1,0 +1,14 @@
+{
+    "name": "asaCaminhoesSA",
+    "startFile": "Transformation.asaql",
+    "configurations": [
+        {
+            "filePath": "JobConfig.json",
+            "subType": "JobConfig"
+        },
+        {
+            "filePath": "Inputs/eventhubcaminhoessa.json",
+            "subType": "Input"
+        }
+    ]
+}

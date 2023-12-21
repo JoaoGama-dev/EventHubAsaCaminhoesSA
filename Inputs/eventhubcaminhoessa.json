@@ -1,0 +1,21 @@
+{
+    "Name": "eventhubcaminhoessa",
+    "Type": "Data Stream",
+    "DataSourceType": "Event Hub",
+    "EventHubProperties": {
+        "ServiceBusNamespace": "CaminhoesSa",
+        "EventHubName": "eventhubcaminhoessa",
+        "SharedAccessPolicyName": "RootManageSharedAccessKey",
+        "SharedAccessPolicyKey": "********",
+        "ConsumerGroupName": "",
+        "AuthenticationMode": "ConnectionString"
+    },
+    "DataSourceCredentialDomain": "308ce57e-e24f-4f3e-ad6c-00f04f6783ff.StreamAnalystics",
+    "Serialization": {
+        "Type": "Json",
+        "Encoding": "UTF8"
+    },
+    "PartitionKey": "",
+    "CompressionType": "None",
+    "ScriptType": "Input"
+}

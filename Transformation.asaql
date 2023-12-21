@@ -1,0 +1,2 @@
+
+select * INTO [outout] from [eventhubcaminhoessa]
